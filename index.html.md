@@ -1,4 +1,3 @@
-# ```react  
 import React, { useState, useMemo, useRef, useEffect } from 'react';  
 import { Wallet, Users, Receipt, ArrowRight, Plus, Trash2, X, Check, Calculator, Edit2, ChevronRight, Info, Cloud, CloudOff, Loader2 } from 'lucide-react';  
   
