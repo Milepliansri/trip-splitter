@@ -42,17 +42,14 @@
   </style>
 </head>
 <body>
-  <div id="root"></div>
-
-  <script type="text/babel">
-    const { useState, useMemo, useRef, useEffect } = React;
-
-    // --- เริ่มต้นตั้งค่า FIREBASE ---
-    // ก๊อปปี้โค้ด Firebase ของคุณมาวางแทนที่ข้างล่างนี้
-    const MY_FIREBASE_CONFIG = {
-        // apiKey: "AIzaSyBxxxxxxx...",
-        // authDomain: "trip-splitter-xxxx.firebaseapp.com",
-        // projectId: "trip-splitter-xxxx",
+     const MY_FIREBASE_CONFIG = {
+        apiKey: "AIzaSyDeXT_Tz_v1...", // 👈 ลบจุดๆ ตรงนี้ แล้วเอาคีย์ที่ยาวๆ ของคุณมาใส่ให้ครบนะครับ
+        authDomain: "trip-cfcd6.firebaseapp.com",
+        projectId: "trip-cfcd6",
+        storageBucket: "trip-cfcd6.appspot.com",
+        messagingSenderId: "302324671401",
+        appId: "1:302324671401:web:35cb8f8c0e27142b78b66e"
+    };
         // storageBucket: "trip-splitter-xxxx.appspot.com",
         // messagingSenderId: "1234567890",
         // appId: "1:1234567890:web:abcdef123456"
